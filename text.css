@@ -1,0 +1,13 @@
+body{
+	/*font-family: Helvetica, sans-serif;*/
+	/*font-family: serif;*/
+	font-family: sans-serif;
+	/*font-family: monospace;*/
+	/*font-family: cursive;*/
+	/*font-family: fantasy;*/
+	font-weight: 500;
+	font-size: 26px;
+	font-style: italics;
+	color: #3d2cee;
+	color: rgba(10,70, 240, 0.3);
+}
