@@ -1,3 +1,39 @@
 body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
+
+a:hover{
+  background-color: grey;
+  padding: 10px;
+  border: 5px solid maroon;
+  margin: 10px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: monospace;
+}
+
+li:hover{
+  font-weight: bold;
+  font-size: 20px;
+  cursor: wait;
+}
+
+a::after{
+  content: '↗'
+}
+
+p::first-letter{
+  font-family: cursive;
+  font-size: 40px;
+}
+
+p{
+  margin: 50px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  padding: 5px;
+  
+  cursor: help;
+
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+}
