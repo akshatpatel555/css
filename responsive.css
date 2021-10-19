@@ -38,3 +38,23 @@ header h1 {
 .right {
   float: right;
 }
+
+@media(max-width: 640px){
+  .navitem{
+    display: block;
+  }
+
+  .navitem.right{
+    float: none;
+  }
+
+  header{
+    font-family: cursive;
+  }
+}
+
+@media (max-width: 800px){
+  header h1{
+    font-size: 20px;
+  }
+}
